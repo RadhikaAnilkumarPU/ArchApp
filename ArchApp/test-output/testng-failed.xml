@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.exmpl.Navigationtest">
+        <methods>
+          <include name="navigateToAUrl"/>
+          <include name="test_blankidlogin"/>
+          <include name="test_blankpwdlogin"/>
+          <include name="test_homepage_correct"/>
+          <include name="test_incorrectpwdlogin"/>
+          <include name="beforeMethod"/>
+          <include name="test_incorrectuserpswdlogin"/>
+          <include name="test_blankuserpwdlogin"/>
+          <include name="test_incorrectidlogin"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.exmpl.Navigationtest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
